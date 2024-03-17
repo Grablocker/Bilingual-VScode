@@ -1,0 +1,53 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "cppbuild",
+			"label": "C/C++: g++.exe 写的什么玩应还要调试？",
+			"command": "D:/VisualStudioCodeprojaccessfiles/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/g++.exe",
+			"args": [
+				"-fdiagnostics-color=always",
+				"-g",
+				"${file}",
+				"-o",
+				"${fileDirname}\\${fileBasenameNoExtension}.exe"
+			],
+			"options": {
+				"cwd": "D:/VisualStudioCodeprojaccessfiles/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin"
+			},
+			"problemMatcher": [
+				"$gcc"
+			],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"detail": "编译器: \"D:/VisualStudioCodeprojaccessfiles/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/g++.exe\""
+		}
+	],
+	"task": [
+		{
+			"type": "cppbuild",
+			"label": "C/C++: g++.exe 写的什么玩应还要调试？",
+			"command": "D:/VisualStudioCodeprojaccessfiles/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/gcc.exe",
+			"args": [
+				"-fdiagnostics-color=always",
+				"-g",
+				"${file}",
+				"-o",
+				"${fileDirname}\\${fileBasenameNoExtension}.exe"
+			],
+			"options": {
+				"cwd": "D:/VisualStudioCodeprojaccessfiles/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin"
+			},
+			"problemMatcher": [
+				"$gcc"
+			],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"detail": "编译器: \"D:/VisualStudioCodeprojaccessfiles/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/gcc.exe\""
+		}
+	]
+}
